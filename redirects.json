@@ -1,0 +1,94 @@
+{
+    "plugin": {
+        "version": "3.2",
+        "date": "Thu, 05 Apr 2018 21:27:15 +0000"
+    },
+    "groups": [
+        {
+            "id": 1,
+            "name": "Redirections",
+            "redirects": 4,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        },
+        {
+            "id": 2,
+            "name": "Modified Posts",
+            "redirects": 0,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        }
+    ],
+    "redirects": [
+        {
+            "id": 1,
+            "url": "\/2018\/03\/26\/hello-world\/",
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "\/sample-page"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 2,
+            "regex": false,
+            "group_id": 1,
+            "position": 0,
+            "last_access": "March 26, 2018",
+            "enabled": true
+        },
+        {
+            "id": 2,
+            "url": "\/2018\/03\/",
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "\/2018\/03\/26\/hello-world\/"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 1,
+            "last_access": "-",
+            "enabled": true
+        },
+        {
+            "id": 3,
+            "url": "\/about-us",
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "\/about-us\/company"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 2,
+            "last_access": "-",
+            "enabled": true
+        },
+        {
+            "id": 4,
+            "url": "\/test",
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "\/test\/new\/test"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 3,
+            "last_access": "-",
+            "enabled": true
+        }
+    ]
+}
